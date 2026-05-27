@@ -2,9 +2,6 @@ import boto3
 from botocore.exceptions import ClientError
 
 # Create S3 client
-<<<<<<< HEAD
-s3 = boto3.client('ecr')
-=======
 s3 = boto3.client('lambda')
 >>>>>>> 570ace6f2072a36d45fc1f35a11b41ccf6ebb5bc
 def list_buckets():
