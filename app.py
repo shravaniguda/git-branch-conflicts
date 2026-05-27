@@ -3,7 +3,6 @@ from botocore.exceptions import ClientError
 
 # Create S3 client
 s3 = boto3.client('rds')
-
 def list_buckets():
     try:
         response = s3.list_buckets()
