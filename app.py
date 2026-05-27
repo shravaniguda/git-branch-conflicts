@@ -10,7 +10,7 @@ def list_buckets():
 
         print("Available S3 Buckets:")
         for bucket in response['Buckets']:
-            print(f" - {bucket['Name']}")
+            print(f" - {bucket['dev']}")
 
     except ClientError as e:
         print(f"Error: {e}")
